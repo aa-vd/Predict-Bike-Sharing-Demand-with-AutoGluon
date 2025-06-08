@@ -31,11 +31,11 @@ Given more time, I would, Create more features like flags for rush hour or holid
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](model_test_score.png)
 
 ## Summary
 This project involved building a bike rental prediction model using AutoGluon. Starting with a baseline model trained on raw features, I observed that the model produced some invalid negative predictions, which had to be corrected. From there, I enhanced the model through exploratory data analysis by engineering meaningful time-based features like hour, day of the week, and month, and converting some columns to categorical types. These additions led to a substantial improvement in prediction accuracy. Further improvements were achieved by tuning hyperparameters using AutoGluon's presets, despite limited computational resources. Ultimately, the model's performance on Kaggle improved from an initial score of 1.80164 to 0.62439 after feature engineering, and finally to 0.51154 after hyperparameter optimization. This exercise demonstrated the power of simple feature engineering and the impact of tuning on model performance. With more time and resources, additional gains could likely be achieved through deeper feature analysis and model ensembling.
